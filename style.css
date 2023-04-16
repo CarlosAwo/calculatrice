@@ -1,0 +1,84 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/*
+ * author : AWO CARLOS
+ * site web : https://awo-carlos.dev/
+ * addresse mail : awocarlos55@gmail.com
+*/
+
+
+.calculatrice{
+ border: 2px outset #fff;
+max-width: 250px;
+padding: 3px;
+}
+p{
+	font-size:18px;
+	
+}
+.calculatrice input{
+background: transparent;
+font-size: 20px;	
+}
+.container--calculatrice{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+.screen{
+	border:2px solid #9dae9d;
+    padding: 15px 5px;
+}
+#userInput{
+	width: 100%;
+	padding: 5px;
+}
+.outputAnswer{
+	text-align: right;
+	padding:5px;
+	border: 1px solid #000;
+}
+
+.buttonsGroup{
+	border:  2px solid #9dae9d;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+.button{
+	font-size: 25px;
+	border-radius: 5px;
+	width:calc(25% - 10px);
+	margin: 5px;
+	border: 2px solid black;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s
+}
+.button:active{
+	background: #ffffff82;
+}
+.button:hover{
+	border: 2px solid #ffffff82;
+}
+.button--half{
+		width:calc(50% - 10px);
+}
+.info{
+	color: red;
+}
